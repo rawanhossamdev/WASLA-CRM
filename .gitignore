@@ -1,0 +1,93 @@
+# =========================
+# Miscellaneous
+# =========================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+logs/
+
+# =========================
+# IntelliJ / Android Studio
+# =========================
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# Flutter / Dart
+# =========================
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+dist/
+.packages
+
+# =========================
+# Android build outputs
+# =========================
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# =========================
+# Generated files
+# =========================
+lib/generated_plugin_registrant.dart
+
+# =========================
+# Platform folders (optional)
+# =========================
+/web/
+/windows/
+/linux/
+/macos/
+
+# =========================
+# Coverage & test results
+# =========================
+coverage/
+test_results/
+
+# =========================
+# ❌ Ignore test folder بالكامل
+# =========================
+test/
+
+# =========================
+# Environment files
+# =========================
+.env*
+!.env.example
+
+# =========================
+# 🔥 Speckit / AI Agents
+# =========================
+
+telemetry-id
+*.tmp
+*.cache
+
+# =========================
+# ✅ Allow ONLY specs
+# =========================
+!specs/
+!specs/**
